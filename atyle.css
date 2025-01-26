@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Merriweather", serif;
+    font-family: "Inter", serif;
+}
+.header {
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    background-image: url('images/Banner\ Image.png');
+    background-size: cover;
+    margin: 50px auto;
+    align-items: center;
+    z-index: 1;
+    
+}
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#020024, #00000065);
+    opacity: 0.7;
+    z-index: -1;
+    border-radius: 15px;
+}
+.tittle_container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 632px;
+    height: 246px;
+    margin: auto;
+    text-align: center;
+}
+
+.sub_tittle {
+  
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+}
+.tittle {
+
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+}
+.offer {
+    width: 802px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.offer_tittle {
+    font-size: 88px;
+    color: red;
+    margin-bottom: 40px;
+    font-family: "Inter", serif;
+}
+.offer_container {
+    text-align: center;
+}
+.offer_paragraph {
+    color: red;
+    font-size: 24px;
+    font-family: "Inter", serif;
+    margin-bottom: 10px;
+}
+.offer_sub {
+    font-size: 48px;
+    font-family: "Inter", serif;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.party {
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    background-image: url('images/Vectorrr.png');
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 150px;
+    z-index: 1;
+}
+.party::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: linear-gradient(to bottom right, red, blue);
+    opacity: 0.7;
+    z-index: -1;
+    border-radius: 15px;
+}
+.party_container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+}
+.party_tittle {
+    color: white;
+    font-size: 64px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 30px;
+}
+.party_pragraph {
+    color: white;
+    font-size: 18px;
+    font-family: "Inter", serif;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.party_btn {
+    color: white;
+}
+.new_hotel {
+    width: 1320px;
+    height: 482px;
+    background-image: linear-gradient(180deg, #f5d6d6, #ff000000);
+    background-size: cover;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+span {
+    color: red;
+}
+.new_hotel_container {
+    position: relative;
+    width: 549px;
+    height: 272px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    text-align: center;
+
+}
+.hotel_tittle {
+    font-size: 32px;
+    font-family: "Inter", serif;
+    margin-bottom: 30px;
+}
+.join_btn  {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Inter", serif;
+    background-color: red;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.coming {
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.coming_info {
+    width: 393px;
+    height: 255px;
+}
+.coming_img {
+    width: 463px;
+    height: 463px;
+}
+.year_para {
+    width: 276px;
+}
+.coming_sub {
+    color: red;
+    font-size: 24px;
+    font-family: "Inter", serif;
+    margin-bottom: 15px;
+}
+.coming_tittl {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 15px;
+}
+.coming_pragraph {
+    color: rgb(78, 78, 78);
+}
+.img {
+    border: 15px solid red;
+    border-radius: 90%;
+    padding: 25px;
+}
+.year {
+    font-size: 48px;
+    color: red;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.year_para {
+    color: rgb(78, 78, 78);
+    margin-bottom: 20px;
+}
+
+.holiday {
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+} 
+.hiliday_sub {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    margin-bottom: 15px;
+} 
+.holiday_tittle {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    margin-bottom: 15px;
+}
+.holiday_paragraph {
+    color: rgb(78, 78, 78);
+}
+.Portfolio {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+}
+.pro_sub_tittle {
+    color: red;
+    font-size: 24px;
+    font-family: "Inter", serif;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.pro_tittle {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 15px;
+}
+.pro_pragraph {
+    color: rgb(78, 78, 78);
+    margin-bottom: 30px;
+}
+.pro_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    background-color: #FFF2F2;  
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;    
+    text-align: center;
+    padding: 80px 0;
+}
+.subscribe_tittle {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.Subscribe_pragraph {
+    color: rgb(78, 78, 78);
+    margin-bottom: 30px;
+}
+input {
+    border: 0;
+    padding: 15px 35px;
+    border-radius: 30px  0 0 30px;
+}
+button {
+    border: 0;
+    padding: 15px 35px;
+    border-radius: 0 30px 30px 0;
+    background-color: red;
+    font-family: "Inter", serif;
+    color: white;
+    font-weight: 700;
+}
+.footer {
+    width: 100%;
+    height: 609px;
+    background-color: #020024; 
+}
+.footer_area {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1320px;
+    margin: 0 auto;
+   
+}
+.address {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+hr {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+  
+}
+address {
+    color: rgb(255, 255, 255);
+}
+.phone, .web {
+    color: rgb(255, 255, 255);
+    margin-top: 3px;
+}
+.footer_social {
+    width: 328px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.Reserved_tittle, h5 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.reserve_area {
+    display: flex;
+    justify-content: space-between;
+    
+}
